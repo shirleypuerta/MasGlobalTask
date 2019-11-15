@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Google Homepage Search","User can search with ""Google Search""","SUCCESS","2019-11-14T15:58:48.838-05:00[America/Bogota]","0.0","18.52"
+"Google Homepage Search","User can search by using the suggestions","SUCCESS","2019-11-14T15:59:08.309-05:00[America/Bogota]","0.0","17.6"

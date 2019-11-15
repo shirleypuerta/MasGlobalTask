@@ -1,0 +1,44 @@
+﻿﻿Test Case 1 - User can validate it is a search list result when using Google Search with valid string values
+Happy Path
+	Steps:
+	1. Go to www.google.com
+    2. Introduce a valid string on the search input
+    3. Click on Google Search button
+    4. Validate Google return a result list
+
+    Expected result: A results list that match with the search criteria
+
+﻿Test Case 2 - User cannot perform a search using Google Search with invalid string values
+Alternative Path
+	Steps:
+	1. Go to www.google.com
+    2. Introduce an invalid string "????" on the search input
+    3. Click on Google Search button
+    4. Validate Google return an error that said. Your search - ??? - did not match any documents.
+
+    Expected result: An error message
+
+ Test Case 3 - User can perform a search using Google Search with valid string values
+  Happy Path
+    	Steps:
+        1. Execute Test Case 1
+        2. Click from the result list one item
+
+        Expected result: A page result it is reloaded on the same google page
+
+Test Case 4 - User can validate it is a suggestion list displayed when perform a search by using the suggestion list with valid string values
+Happy Path
+	1. Go to www.google.com
+	2. Introduce a valid string on the search input
+	3. Validate that a suggestion list is displayed with list of results that match the search criteria
+
+	Expected result: A suggestions list that match with the search criteria
+
+Test Case 5 - User can  perform a search by using the suggestion list with valid string values
+Happy Path
+        1. Execute Test Case 4
+        2. Click from the sugestion list one item
+        3. Google return a result list
+        4. Click from the result list one item
+
+        Expected result: A page result it is reloaded on the same google page

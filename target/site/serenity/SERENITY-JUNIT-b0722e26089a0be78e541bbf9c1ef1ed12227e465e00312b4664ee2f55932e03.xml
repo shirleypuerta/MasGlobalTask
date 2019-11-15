@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Google Homepage Search" skipped="0" tests="2" time="34.96" timestamp="2019-11-14 05:44:47"><testcase name="User can search with &quot;Google Search&quot;"/><testcase name="User can search by using the suggestions"/></testsuite>

@@ -1,0 +1,4 @@
+net\masglobaltask\bdd\steps\serenity\EndUserSteps.class
+net\masglobaltask\bdd\DefinitionTestSuite.class
+net\masglobaltask\bdd\pages\DictionaryPage.class
+net\masglobaltask\bdd\steps\DefinitionSteps.class
